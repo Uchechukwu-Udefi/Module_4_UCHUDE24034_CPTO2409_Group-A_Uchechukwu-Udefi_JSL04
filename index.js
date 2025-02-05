@@ -12,7 +12,7 @@ userPreference === 'Sugar-free' ? console.log(`Sugar-free`) : console.log(`Regul
 // You have a variable that tracks the number of Monster Energy cans left in the fridge. 
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
 
-let cansLeft = 3; // Any number of cans
+let cansLeft = 5; // Any number of cans
 cansLeft < 5 ? console.log(`Time to restock!`) : cansLeft >= 5 ? console.log(`We're stocked!`) : console.log(``);
 
 
@@ -21,7 +21,7 @@ cansLeft < 5 ? console.log(`Time to restock!`) : cansLeft >= 5 ? console.log(`We
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!".
 
 let heartRate = 95; // Current heart rate in bpm
-console.log(`'}`);
+heartRate < 100 ? console.log(`Boost needed!`) : console.log(`Energy levels are high!`);
 
 
 // #### Challenge 4: Temperature Suitability
